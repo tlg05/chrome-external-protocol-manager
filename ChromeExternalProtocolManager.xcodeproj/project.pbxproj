@@ -14,6 +14,7 @@
 		A0FEA58E219E54DD00330F40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = A0FEA58D219E54DD00330F40 /* Cartfile */; };
 		A0FEA591219E55FB00330F40 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FEA590219E55FB00330F40 /* SwiftyJSON.framework */; };
 		A0FEA593219E56FF00330F40 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0FEA590219E55FB00330F40 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0FEA596219E6B9F00330F40 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A0FEA595219E6B9F00330F40 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		A0BA6EEF219D9AEB006CC298 /* ChromeExternalProtocolManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChromeExternalProtocolManager.entitlements; sourceTree = "<group>"; };
 		A0FEA58D219E54DD00330F40 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		A0FEA590219E55FB00330F40 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		A0FEA595219E6B9F00330F40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		A0BA6ED9219D9AEA006CC298 = {
 			isa = PBXGroup;
 			children = (
+				A0FEA595219E6B9F00330F40 /* README.md */,
 				A0FEA58D219E54DD00330F40 /* Cartfile */,
 				A0BA6EE4219D9AEA006CC298 /* ChromeExternalProtocolManager */,
 				A0BA6EE3219D9AEA006CC298 /* Products */,
@@ -159,6 +162,7 @@
 			files = (
 				A0FEA58E219E54DD00330F40 /* Cartfile in Resources */,
 				A0BA6EEA219D9AEB006CC298 /* Assets.xcassets in Resources */,
+				A0FEA596219E6B9F00330F40 /* README.md in Resources */,
 				A0BA6EED219D9AEB006CC298 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
